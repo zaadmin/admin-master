@@ -7,14 +7,14 @@ import axios from '../axios'
 // 保存
 export const save = (data) => {
     return axios({
-        url: '/webManage/ArticleClassify/save',
+        url: '/webCore/ArticleClassify/save',
         method: 'post',
         data
     })
 }
 export const findByName = (params) => {
     return axios({
-        url: '/webManage/ArticleClassify/findByName',
+        url: '/webCore/ArticleClassify/findByName',
         method: 'get',
         params
     })
@@ -22,7 +22,7 @@ export const findByName = (params) => {
 // 删除
 export const batchDelete = (data) => {
     return axios({
-        url: '/webManage/ArticleClassify/delete',
+        url: '/webCore/ArticleClassify/delete',
         method: 'post',
         data
     })
