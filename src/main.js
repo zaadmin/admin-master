@@ -11,6 +11,7 @@ import '@/assets/iconfont/iconfont.css'
 
 Vue.use(ElementUI)
 Vue.use(api)
+Vue.use(scroll)
 Vue.prototype.global = global
 
 new Vue({

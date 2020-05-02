@@ -7,6 +7,9 @@ import * as role from './moudules/role'
 import * as menu from './moudules/menu'
 import * as log from './moudules/log'
 import * as articleClassify from './moudules/articleClassify'
+import * as articleLabel from './moudules/articleLabel'
+import * as navigationBar from './moudules/navigationBar'
+import * as article from './moudules/article'
 
 
 // 默认全部导出
@@ -16,5 +19,8 @@ export default {
     role,
     menu,
     log,
-    articleClassify
+    articleClassify,
+    articleLabel,
+    navigationBar,
+    article
 }
